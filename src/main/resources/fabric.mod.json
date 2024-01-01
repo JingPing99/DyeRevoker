@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "dyerevoker",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Dye Revoker",
   "description": "This mod aims to help new BTA modders.",
   "authors": [
-    "Turnip Labs"
+    "FruitStack"
   ],
   "contact": {
     "homepage": "",
@@ -18,11 +18,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
-    ]
+        "fruitstack.dyerevoker.DyeRevoker"
+    ],
+		"recipesReady": [
+			"fruitstack.dyerevoker.DyeRevokerRecipes"
+		]
   },
   "mixins": [
-      "examplemod.mixins.json"
+      "dyerevoker.mixins.json"
   ],
 
   "depends": {
