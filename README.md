@@ -1,7 +1,5 @@
 # Dye Revoker
 
----
-
 A simple mod adding some trommel recipes, mainly undoing dye'd varients of things.
 
 **Requires:** 
